@@ -25,8 +25,8 @@ $categories = $stmt->fetchAll();
 <div class="row justify-content-center">
 <?php if (count($categories) > 0): ?>
     <?php foreach ($categories as $cat): ?>
-    <div class="col-md-4 mb-3">
-        <div class="card shadow-sm p-3">
+    <div class="col-md-6 mb-4">
+        <div class="card shadow-sm p-5">
         <h5 class="card-title text-center"><?= htmlspecialchars($cat['name']) ?></h5>
         <a href="review.php?category_id=<?= $cat['id'] ?>" class="btn btn-primary w-100">Review</a>
         </div>

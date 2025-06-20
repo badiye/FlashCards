@@ -47,6 +47,7 @@
     }
     ?>
     <div class="container mt-5">
+        <a href="index.php" class="btn btn-btn-primary mb-3">← Back to Home</a>
         <div class="row justify-content-center">
         <div class="col-md-6">
             <h1 class="text-center mb-4">Create an Account</h1>

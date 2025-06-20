@@ -17,6 +17,18 @@ $userName = $_SESSION['user_name'] ?? 'User';
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .card {
+            min-height: 250px;
+            font-size: 1.1rem;
+        }
+        .card h4 {
+            font-size: 1.8rem;
+        }
+        .card p {
+            font-size: 1.1rem;
+        }
+    </style>
 </head>
 <body class="bg-light">
 
@@ -36,16 +48,16 @@ $userName = $_SESSION['user_name'] ?? 'User';
     <p class="lead">What would you like to do today?</p>
 
     <div class="row justify-content-center mt-4">
-        <div class="col-md-4 mb-3">
-            <div class="card p-4 shadow-sm">
+        <div class="col-md-6 mb-4">
+            <div class="card p-5 shadow-sm">
                 <h4>📚 Review Flashcards</h4>
                 <p>Practice questions you've already added.</p>
                 <a href="categories.php" class="btn btn-primary w-100">Go to Review</a>
             </div>
         </div>
 
-        <div class="col-md-4 mb-3">
-            <div class="card p-4 shadow-sm">
+        <div class="col-md-6 mb-4">
+            <div class="card p-5 shadow-sm">
                 <h4>✏️ Create Flashcards</h4>
                 <p>Add new categories and questions.</p>
                 <a href="create.php" class="btn btn-success w-100">Add Flashcards</a>
