@@ -101,8 +101,8 @@ A simple PHP-based web app to create, review, and manage personalized flashcards
 1. Clone the repo:
 
    ```bash
-- git clone https://github.com/badiye/FlashCards.git
-- cd Flashcards
+   git clone https://github.com/badiye/FlashCards.git
+   cd Flashcards
 
 2. Create and import database:
 
